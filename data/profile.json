@@ -1,78 +1,89 @@
 {
-  "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "name": "Marcel F Morales",
+  "photo": "https://avatars.githubusercontent.com/u/70552847?s=400&v=4",
+  "job": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+  "email": "marcelmorales@gmail.com",
+  "phone": "(53) 9 99135 3979",
+  "linkdin": "https://linkedin.com/in/moralesmarcel",
+  "github": "https://github.com/moralesmarcel",
+  "location": "Pelotas - RS",
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "name": "Windows",
+        "logo": "https://worldvectorlogo.com/download/microsoft-windows-22.svg"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        "name": "Corel",
+        "logo": "https://worldvectorlogo.com/download/corel-3.svg"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "name": "Photoshop",
+        "logo": "https://cdn.worldvectorlogo.com/logos/adobe-photoshop-2.svg"
       },
       {
-        "name": "React",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        "name": "HTML5",
+        "logo": "https://cdn.worldvectorlogo.com/logos/html-1.svg"
       },
       {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+        "name": "JavaScript",
+        "logo": "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
       },
       {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        "name": "Python",
+        "logo": "https://cdn.worldvectorlogo.com/logos/python-5.svg"
+      },
+      {
+        "name": "php",
+        "logo": "https://cdn.worldvectorlogo.com/logos/php-1.svg"
       }
     ],
     "softSkills": [
       "Empatia",
-      "Liderança",
-      "Trabalho em equipe",
+      "Organização",
+      "Responsabilidade",
+      "Colaboração",
       "Flexibilidade",
-      "Organização"
+      "Motivação",
+      "Resiliência",
+      "Aprender a aprender"
     ]
   },
-  "languages": [
-    "Português BR",
-    "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
-  ],
+
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
-      "github": true
+      "name": "Tecnólogo em Análise e Desenvolvimento de sistemas - UCPel"
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
-      "github": true
+      "name": "Barachelado em Engenharia Elétrica (matricula trancada) - IFSul "
+    },
+    {
+      "name": "Técnico em Telecomunicações - CEFET-RS"
     }
   ],
+
+  "languages": ["Português", "Francês (básico)", "Inglês (básico)"],
+
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "Editor Gráfico / COLÉGIO GONZAGA",
+      "period": "FEV 2017 - até o momento",
+      "description": "Encarregado de edição e arte finalização de materiais informativos de uso interno e externos."
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+      "name": "Editor Gráfico / TEOREMA PRÉ-VESTIBULARES",
+      "period": "FEV 2008 - até o momento",
+      "description": "Responsável pela criação, edição e arte finalização de materiais didáticos e informativos, tanto em mídias físicas quanto digitais."
     },
     {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Estágio Técnico em Telecom / SEICOM",
+      "period": "AGO 2005 - FEV 2006",
+      "description": "Responsável técnico pela operação e manutenção preventiva de ERB'S de sistemas celulares."
+    },
+    {
+      "name": "Aluno Bolsista / CEFET-RS",
+      "period": "AGO 2003 - JUN 2005",
+      "description": "Manter a organização dos Laboratórios do curso Técnico de Telecomunicações, fornecer informações sobre os materiais usados em práticas, assim como responsável pela distribuição de componentes eletrônicos e ferramentas elétricas/eletrônicas quando solicitados pelos alunos e professores."
     }
   ]
 }

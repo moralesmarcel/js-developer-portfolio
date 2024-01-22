@@ -1,120 +1,148 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifólio Marcel Morales</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Renan J Paula</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="stylesheet" href="/assets/css/header.css" />
+    <link rel="stylesheet" href="/assets/css/acordeon.css" />
+    <link rel="stylesheet" href="/assets/css/languages.css" />
+    <link rel="stylesheet" href="/assets/css/portfolio.css" />
+    <link rel="stylesheet" href="/assets/css/experience.css" />
+    <link rel="stylesheet" href="assets/css/skills.css" />
+    <link rel="stylesheet" href="/assets/css/footer.css" />
+  </head>
 
-    <link rel="stylesheet" href="assets/css/global.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/acordeon.css">
-    <link rel="stylesheet" href="assets/css/languages.css">
-    <link rel="stylesheet" href="assets/css/portfolio.css">
-    <link rel="stylesheet" href="assets/css/experience.css">
-    <link rel="stylesheet" href="assets/css/skills.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-</head>
-
-<body>
+  <body>
     <main class="main">
-        <header class="header">
-            <img src="assets/img/my-photo.png" alt="Foto de Perfil" class="photo" id="profile.photo">
+      <header class="header">
+        <img src="assets/img/my-photo.png" alt="Foto de Perfil" class="photo" id="profile.photo" />
 
-            <h1 class="title">
-                Olá, <br>eu sou <span id="profile.name">Carregando...</span>
-            </h1>
+      <h1 class="title">
+        Olá,<br />me chamo<br />Marcel F. Morales<br />e seja bem-vindo<br />ao meu perfil
+      </h1>
 
-            <div class="information">
-                <p class="job" id="profile.job">Carregando...</p>
-                <p class="location" id="profile.location">Carregando...</p>
-                <p class="phone">
-                    <a href="tel:(16) 9 9999-9999" id="profile.phone">Carregando...</a>
-                </p>
-                <p class="email">
-                    <a href="mailto:ex@mail.com" id="profile.email">carregando@mail.com</a>
-                </p>
-            </div>
-        </header>
+      <div class="information">
+        <p class="job" id="profile.job">Tecnólogo em Análise e Desenvolvimento de Sistemas</p>
+        <p class="email"><a href="mailto:marcelmorales@gmail.com" id="profile.email">marcelmorales@gmail.com</a></p>
+        <p class="phone"><a href="tel:(53) 991353979" id="profile.phone">(53) 9 9135 3979</a></p>
+        <p class="linkedin"><a href="https://linkedin.com/in/moralesmarcel" target="_blank" rel="noopener noreferrer"id="profile.linkedin">linkedin.com/moralesmarcel</a></p>
+        <p class="github"><a href="https://github.com/moralesmarcel" target="_blank" rel="noopener noreferrer"id="profile.github">github.com/moralesmarcel</a></p>
+        <p class="location" id="profile.location">Pelotas - RS</p>
+      </div>
 
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Skills</h2>
-            </button>
+    </header>
 
-            <div class="content">
-                <div class="skills">
-                    <section class="tools">
-                        <h3>Ferramentas:</h3>
-                        <ul id="profile.skills.hardSkills">
-                        </ul>
-                    </section>
+    <section class="acordeon">
+      <button class="trigger" type="button">
+          <h2>Skills</h2>
+      </button>
 
-                    <section class="personal">
-                        <h3>Pessoal:</h3>
-                        <ul id="profile.skills.softSkills">
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
-                        </ul>
-                    </section>
-                </div>
-            </div>
-        </section>
+      <div class="content">
+          <div class="skills">
+              <section class="tools">
+                  <h3>Habilidades Profissionais:</h3>
+                  <ul id="profile.skills.hardSkills">
+                    <li><img src="/assets/img/icons/tools/win.svg" alt="windows" title="windows e office"></li>
+                    <li><img src="/assets/img/icons/tools/linux.svg" alt="linux" title="linux"></li>
+                    <li><img src="/assets/img/icons/tools/corel.svg" alt="corel" title="corel"></li>
+                    <li><img src="/assets/img/icons/tools/photoshop.svg" alt="photoshop" title="photoshop"></li>
+                    <li><img src="/assets/img/icons/tools/html5.svg" alt="html5" title="html5"></li>
+                    <li><img src="/assets/img/icons/tools/javascript.svg" alt="jascript" title="javascript"></li>
+                    <li><img src="/assets/img/icons/tools/python.svg" alt="python" title="python"></li>                    
+                    <li><img src="/assets/img/icons/tools/php.svg" alt="php" title="php"></li>
+                  </ul>
+              </section>
 
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Idiomas</h2>
-            </button>
+              <section class="personal">
+                  <h3>Habilidades Pessoal:</h3>
+                  <ul id="profile.skills.softSkills">
+                      <li>Empatia</li>
+                      <li>Organização</li>
+                      <li>Responsabilidade</li>
+                      <li>Colaboração</li>
+                      <li>Flexibilidade</li>
+                      <li>Motivação</li>
+                      <li>Resiliência</li>
+                      <li>Aprender a aprender</li>
+                  </ul>
+              </section>
+          </div>
+      </div>
+  </section>
 
-            <div class="content">
-                <ul class="languages" id="profile.languages">
-                    <li>Carregando...</li>
-                </ul>
-            </div>
-        </section>
+<section class="acordeon">
+    <button class="trigger" type="button">
+        <h2>Formação Acadêmica</h2>
+    </button>
 
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Portfólio</h2>
-            </button>
+    <div class="content">
+        <ul class="portfolio" id="profile.portfolio">
+          <li>Tecnólogo em Análise e Desenvolvimento de Sistemas - UCPel</li>
+          <li>Engenharia Elétrica - IFSul ( <i>matrícula trancada</i>)</li>
+          <li>Técnico em Telecomunicações - CEFET-RS</li>
+        </ul>
+    </div>
+</section>
 
-            <div class="content">
-                <ul class="portfolio" id="profile.portfolio">
-                </ul>
-            </div>
-        </section>
+<section class="acordeon">
+  <button class="trigger" type="button">
+      <h2>Idiomas</h2>
+  </button>
 
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Experiência Profissional</h2>
-            </button>
+  <div class="content">
+      <ul class="languages" id="profile.languages">
+          <li>Português</li>
+          <li>Francês (básico)</li>
+          <li>Inglês (básico)</li>
+      </ul>
+  </div>
+</section>
 
-            <div class="content">
-                <ul class="experience" id="profile.professionalExperience">
-                </ul>
-            </div>
-        </section>
+<section class="acordeon">
+    <button class="trigger" type="button">
+        <h2>Experiência Profissional</h2>
+    </button>
 
-        <footer>
-            <a href="https://www.dio.me/" target="_blank">
-                <img src="assets/img/dio.svg" alt="DIO">
-            </a>
-        </footer>
-    </main>
+    <div class="content">
+        <ul class="experience" id="profile.professionalExperience">
+          <li>
+            <span class="title">Editor Gráfico / COLÉGIO GONZAGA</span>
+            <span class="period">FEV 2017 - Até o momento</span>
+            <p><i>Encarregado de edição e arte finalização de materiais informativos de uso interno e externos.</i></p>
+          </li>
+          <li>
+            <span class="title">Editor Gráfico / TEOREMA PRÉ-VESTIBULAR</span>
+            <span class="period">FEV 2008 - Até o momento</span>
+            <p><i>Responsável pela criação, edição e arte finalização de materiais didáticos e informativos, tanto em mídias físicas quanto digitais.</i></p>
+          </li>
+          <li>
+            <span class="title">Estagio Técnico em Telecomunicações / SEICOM</span>
+            <span class="period">AGO 2005 - FEV 2006</span>
+            <p><i>Responsável técnico pela operação e manutenção preventiva de ERB'S de sistemas celulares.</i></p>
+          </li>
+          <li>
+            <span class="title">Aluno Bolsista / CEFET-RS</span>
+            <span class="period">AGO 2003 - JUN 2005</span>
+            <p><i>Manter a organização dos Laboratórios do curso Técnico de Telecomunicações, fornecer informações sobre os materiais usados em práticas, assim como responsável pela distribuição de componentes eletrônicos e ferramentas elétricas/eletrônicas quando solicitados pelos alunos e professores.</i></p>
+          </li>
+        </ul>
+        </ul>
+    </div>
+</section>
 
-    <script src="assets/js/acordeon.js"></script>
-    <script src="assets/js/api.js"></script>
-    <script src="assets/js/main.js"></script>
-</body>
+<script src="assets/js/acordeon.js"></script>
+<script src="assets/js/api.js"></script>
+<script src="assets/js/main.js"></script>
 
+  </body>
 </html>
